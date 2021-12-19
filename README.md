@@ -1,0 +1,2 @@
+# puzzles
+RPG oriented puzzles
