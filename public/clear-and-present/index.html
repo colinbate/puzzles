@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clear and Present</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: grid;
+      grid-template-rows: auto auto;
+      margin: 0;
+    }
+
+    #frame {
+      background-color: #f3f4f6;
+    }
+
+    main {
+      order: 0;
+      padding: 1rem 1rem 3rem;
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    blockquote {
+      margin-left: 0.5rem;
+      padding: 1px 0.5rem;
+      background-color: hsla(195, 100%, 50%, 0.2);
+      border-left: 3px solid steelblue;
+    }
+
+    blockquote > p {
+      margin: 0.75rem 0;
+    }
+
+    @media (min-width: 575px) {
+      body {
+        grid-template-rows: auto;
+        grid-template-columns: fit-content(50%) 1fr;
+      }
+      main {
+        order: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Clear and Present</h1>
+  
+    <blockquote><p>"Welcome, welcome to the North Pole! Unfortunately, we can't let just anyone in. You must first prove your worth."</p></blockquote>
+    
+    <p>The goal of this puzzle is to find <em>something</em> inside one of the presents.
+   Just what that something is depends on your needs. Could be access to the North Pole to start the adventure. Or it could point you in another direction entirely.</p>
+
+    <h2>Setup</h2>
+    
+    <p>There are five wrapped gifts presented to the players along with two constructs. Here we use two wooden nutcracker guards. In addition you need someone to "present" the puzzle. This is the role that Frosty the snowman plays.</p>
+
+    <p>The color and shape of the gifts is significant and they are as follows:</p>
+
+    <ul>
+      <li>Yellow and circular</li>
+      <li>Green and circular</li>
+      <li>Green and square</li>
+      <li>Blue and square</li>
+      <li>Blue and rectangular</li>
+    </ul>
+   
+    h2>The Encounter</h2>
+
+    <p>Frosty then gets everyone's attention:</p>
+
+    <blockquote>
+      <p>"Within one of these boxes is the answer (or item) you seek. But inside the gifts you must not peek. For danger lurks if you choose the wrong one. So listen carefully and we shall have some fun."</p>
+
+      <p>Frosty gestures to the wooden guards then approaches and whispers something to each of them separately.</p>
+
+      <p>"See, my friends here are logical masters. Despite them not even being spell casters. I told the color to guard one, the shape to guard two. They will calculate the answer and I will check when they do."</p>
+
+      <p>Frosty then addresses the guards, and asks them if they know the correct gift. The guards look at each other for a second and then shake their heads.</p>
+
+      <p>"Oh, are you sure?"</p>
+
+      <p>They look at each other again for a moment and then shake their heads.</p>
+
+      <p>"Well maybe this won't be as—"</p>
+
+      <p>Before he can disparage himself, the guards both start nodding and smiling. They know the correct gift.</p>
+
+      <p>"Well there you have it, they have figured it out. Pick your gift."</p>
+    </blockquote>
+   
+    <p>And with that, the party can attempt to guess their gift. The negative consequences are up to you, but gift mimics are a fun option.</p>
+   
+    <h2>Solution</h2>
+
+    <p>The short answer is that the answer (or item) is in the green square box.</p>
+
+    <p>The explanation if you need to give it is this:</p>
+
+    <blockquote>
+      <p>Knowing that both guards are logical masters, you know that if it is possible to determine the answer with what they know, they will say so. They each know one aspect of the correct gift: color or shape. At first neither knows which gift is correct. This means that it isn't the yellow box, nor the rectangular one as they are both unique in the color and shape space respectively.</p>
+      <p>Eliminating these as options leaves three possibilities. They are once again asked to confirm that they don't know, at which point they both observe that neither of them knows. With this they know that it can't be the green circular box as that is the only remaining circle, and if guard two was told circle he would have known. Likewise, it can't be the blue square as that is the only remaining blue one, and guard one would have been able to identify that if it were the correct one. So this leaves the green square box, which they both realize at the end.</p>
+    </blockquote>
+   
+    <h2>Mix it up</h2>
+
+    <p>There are a number of options to make this fit into different scenarios. The underlying logic problem could be used with anything: buttons, treasure chests, creatures, or anything else which has two unique independent attributes. The setting can be changed to anywhere it makes sense to have your group stopped. And the NPCs can be changed, you may even be able to replace the presenter with something written if you are creative.</p>
+  </main>
+  <div id="frame">
+    <img src="present-logic.jpg" alt="Example map to use for puzzle encounter">
+  </div>
+</body>
+</html>
