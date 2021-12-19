@@ -1,2 +1,3 @@
-# puzzles
+# RPG Puzzles
+
 RPG oriented puzzles
